@@ -1,0 +1,34 @@
+.c1 {
+    display: flex;
+}
+ /* 디스플레이 플랙스 의미는 가로로 배열 */
+
+.c1 > div {
+    width: 30%;
+    text-align: center;
+}
+/* c1 밑에 flex 가로 배열 중 첫번째 박스인 그림을 div 30% 비중 그리고 그림 가운대 배열 */
+
+.c1 img {
+    border-radius: 50%;
+}
+ /* 보더레디우스는 사각형에 50% 주면 원형 */
+.c1 > p {
+    width: 60%;
+    /* c1 밑에 flex 가로 배열 중 p 내용을  div 60% 비중 그리고 그림 가운대 배열 */
+}
+.c2{
+    display: flex;
+}
+ /* 디스플레이 플랙스 의미는 가로로 배열 */
+
+.c2 > div {
+    width: 30%;
+    text-align: center;
+}
+/* c1 밑에 flex 가로 배열 중 첫번째 박스인 그림을 div 30% 비중 그리고 그림 가운대 배열 */
+
+.c2 > p {
+    width: 60%;
+    /* c1 밑에 flex 가로 배열 중 p 내용을  div 60% 비중 그리고 그림 가운대 배열 */
+}
