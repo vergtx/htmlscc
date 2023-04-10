@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <title>K-Dgital 3기 김광일</title>
+</head>
+<body>
+    <main class="container">
+    <article>
+    <form>
+
+        <!-- Grid 크기따라자동조정 -->
+        <div class="grid">
+         <!-- div 대 박스로 감쌈 -->
+          <!-- Markup example 1: input is inside label -->
+          <label for="firstname">
+            성
+            <input type="text" id="firstname" name="firstname" placeholder="성을 입력하세요" required>
+            <!-- required 필수값 -->
+          </label>
+      
+          <label for="lastname">
+            이름
+            <input type="text" id="lastname" name="lastname" placeholder="이름을 입력하세요" required>
+          </label>
+      
+        </div>
+      
+        <!-- Markup example 2: input is after label -->
+        <label for="email">Email address</label>
+        <input type="email" id="email" name="email" placeholder="Email address" required>
+       <!-- input type="email @있어야 함 -->
+        <small>We'll never share your email with anyone else.</small>
+      
+        <!-- Button 만드는 2가지방식 1.버튼이나 2.인풋사용 -->
+        <div class="grid">
+        <button type="submit">Submit</button>
+        <input type="submit" value="확인">
+        <input type="submit" value="취소">
+        </div>
+    </form>
+    </article>
+
+    </main>
+</body>
+</html>
