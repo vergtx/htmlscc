@@ -69,8 +69,9 @@
         
         for(let [k,v] of bts.entries()) {
             console.log(k,v.textContent);
-
         }
+
+
             
     });
 
