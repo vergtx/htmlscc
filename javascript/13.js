@@ -90,20 +90,12 @@
         console.log(n);
 
         document.getElementById("h2id").innerHTML = `<img src ="../images/${n}.png">` ;
-        // 백팅 ` ` 사용 해서 문자열로 정의
-
-
-}
-
-   
-    // 이미지 불러올때 큰따옴표 안에 작음따옴표든 다른따온표 안에 큰따옴표를 하던지 해서 구분해줘야 한다 </if> "< img src ='../images/1.png'> " */}
+        // page 346 백틱 탬플릿 문자열 ` ` 사용 해서 문자열로 정의, ${} 외부 변경되는 변수 넣을 수 있음
+        // 이미지 불러올때 큰따옴표 안에 작음따옴표든 다른따온표 안에 큰따옴표를 하던지 해서 구분해줘야 한다 </if> "< img src ='../images/1.png'> " */}
 
 
 document.addEventListener("DOMContentLoaded", () => {
 
-
-
-   
 
    const bt = document.createElement("button") ;
    bt.textContent = "확인"
