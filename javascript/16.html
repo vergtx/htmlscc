@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <link rel="stylesheet" href="../css/04.html">
+    <script src="./16.js""></script>
+    
+    <title>k-digital 3기 js</title>
+
+    <!-- 자바스크립트 위치 헤드나 바디 아무데나 들어가면 된다. 우리는 외부 스크립트 사용 src이용해서 불러옴 -->
+    <!-- 자바 스크립트는 동적인 기는 보엿다가 안보이게 뭐 이런 기능 사용하는 것이 목적 / 사용자 입력 내 form 태그 걸어서 사용 -->
+    <!-- 확장자가 .js 이다.  -->
+    <!-- 지금 자바로 우리가 하는 것은 dorm 을 생성한것을 crud 하는 것 연습 >>>>JavaScript를 통해 DOM CRUD를 구현  -->
+    <!-- 선택자 샐랙터는 자바에서도 사용된다. -->
+    <!-- 가지고오는 명령 document. ...사용 해서 get엘리먼트바이id로 정확한 부분 따오는데 최신버젼에선는 쿼리 셀렉터 많이 사용 -->
+    <!-- 쿼리 샐랙터는 한개값 쿼리샐랙터 올은 여러개 값 배열로 가져옴 -->
+    <!-- =은 할당연산자. 오른쪽에 값을 왼쪽에 넣음 왼쪽에는 변수가 들어감 -->
+    <!-- ==은 같다는 의미 우리가 일반적으로 사용하는 이퀄의미 -->
+    <!-- 삼항연산자 이프문장 한줄로 설명가능 하나 리엑터에서 사용 A=B ? A=10, A=20 << A가 B와 일치하면 A는 10 아니면 A는 20  -->
+
+</head>
+<body>
+    <main class="container">
+        <article>
+            <header> 
+                <h1></h1>주사위게임</h1> </header>
+            </header>
+            <div id="h2Id" class="h2Class"></div>
+            <footer>
+                <form>
+                    <!-- Radios 피코 레디오스 가지고 와서 수정 -->
+                    <fieldset>
+                        <legend><h2>숫자선택</h2></legend>
+                        <div class="grid">
+                        <label for="r1">
+                            <input type="radio" id="r1" name="num" value="1"> 1
+                        </label>
+                        <label for="r2">
+                            <input type="radio" id="r2" name="num" value="2"> 2
+                        </label>
+                        <label for="r3">
+                            <input type="radio" id="r3" name="num" value="3"> 3
+                        </label>
+                        <label for="r4">
+                            <input type="radio" id="r4" name="num" value="4">4
+                        </label>
+                        <label for="r5">
+                            <input type="radio" id="r5" name="num" value="5">5
+                        </label>
+                        <label for="r6">
+                            <input type="radio" id="r6" name="num" value="6">6
+                        </label>
+                        </div>
+                    </fieldset>
+                    <div class="grid">
+                        <button onclick="show();"> 확인 </button>
+                        <button type="reset"> 취소 </button>
+                    </div>
+                </form>    
+            </footer>
+        </article>
+    </main>
+  
+  
+</body>
+</html>
+
