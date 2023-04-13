@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded',()=> {
     const cbt2s = document.querySelectorAll(".cbt2");
     const cbt3s = document.querySelectorAll(".cbt3");
     const btReset = document.querySelector("#btReset");
-    const txt1 = document.querySelector("#txt1") ;
+    const txt1 = document.querySelector("#txt1") ;  // querySelector 집어온 속성을 보고 속성값을 참조하겟다. get attibute는 id와 class를 정확히 찝어온다.
 
     //배열의 초기화
     let arr = [] ;
@@ -16,8 +16,9 @@ document.addEventListener('DOMContentLoaded',()=> {
     
     })
 
-    //버튼에 이벤트 달기
+    //버튼누르면  버튼 값 표시 이벤트 달기
     console.log(cbt1s)
+
     for(let cbt1 of cbt1s) {   //cbt1은 cbts 줄의 버튼에 클릭 이벤트 생성) 
         cbt1.addEventListener('click', (event) => {
             event.preventDefault ();
