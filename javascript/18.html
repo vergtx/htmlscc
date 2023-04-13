@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <link rel="stylesheet" href="../css/17.css">
+    <script src="./18.js""></script>
+    <title>k-digital 3기 js</title>
+
+
+
+</head>
+<body>
+    <main class="container">
+        <header>
+            <hgroup>
+                <!-- h1 h2 이렇게 두가지 있으면 <hgroup>설정해서 두가지로 사용가능 -->
+                <h1> 문자열 다루기 </h1>
+                <h2> </h2> 
+                <!-- h2 단어가 없으면 단어를 입력하세요 js 불러와 메시지 뜸 -->
+            </hgroup>
+
+            <form>
+                <div class="grid">
+                    <label for="text1">
+                        <input type="text" id="txt1" name="" placeholder="단어를 입력하세요" required>
+                    </label>     
+                    <label for="text2">
+                        <input type="text" id="txt2" name="" readonly>
+                        <!-- readonly는 값입력안됨 -->
+                    </label>
+                </div>
+                <div class="grid">
+                    <button id="bt1" class="bt"> 회문확인</button>
+                    <button id="bt2" class="bt"> 숫자합계</button>                    
+                    <button type="reset"> 취소 </button>
+                </div>
+            </form>
+        </header>
+    </main>
+    
+</body>
+</html>
