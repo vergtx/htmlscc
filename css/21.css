@@ -1,0 +1,25 @@
+#boxDIV {
+  background-color: rgba(252, 231, 140, 0.247); /* 변경할 색상 입력 */
+}
+
+#boxDT{background-color: rgba(252, 222, 140, 0.295);
+
+}
+
+
+/* details 요소 */
+details {
+  background-color: #dfa4a444;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+
+p {
+  background-color: #cfac383b;
+  padding: 5px;
+  border-radius: 3px;
+  text-align: center;
+}
+
